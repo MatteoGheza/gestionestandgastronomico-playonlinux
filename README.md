@@ -42,7 +42,7 @@ Se l'installazione è terminata correttamente, dovrebbe essere visibile la segue
 Attualmente funziona tutto al 100%, dalla stampa al server web, dall'esportazione alla gestione dell'inventario.  
 Non è stato testato in una vera sagra, ma è stato provato per un'ora in una "finta serata", con un ottimo risultato.  
 Non ho riscontrato problemi legati alle performance, che mi sono sembrate identiche a quelle riscontrate nella versione per Windows.  
-Attualmente, è stato testato solo su Lubuntu, ma dovrebbe funzionare su ogni distro, variante o sistema operativo conpatibile con [PlayOnLinux](https://www.playonlinux.com/en/download.html)
+Attualmente, è stato testato solo su Lubuntu, ma dovrebbe funzionare su ogni distro, variante o sistema operativo compatibile con [PlayOnLinux](https://www.playonlinux.com/en/download.html)
 ## E' sicuro utilizzare questo script? Come faccio a sapere che non è un virus?
 ![](installazione7.png)
 Puoi verificare la sicurezza di questo script [leggendone il codice alla relativa pagina su Github](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/blob/master/gestionestandgastronomico.sh).
