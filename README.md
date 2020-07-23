@@ -45,7 +45,7 @@ Non ho riscontrato problemi legati alle performance, che mi sono sembrate identi
 Attualmente, è stato testato solo su Lubuntu, ma dovrebbe funzionare su ogni distro, variante o sistema operativo compatibile con [PlayOnLinux](https://www.playonlinux.com/en/download.html)
 ## E' sicuro utilizzare questo script? Come faccio a sapere che non è un virus?
 ![](installazione7.png)  
-Puoi verificare la sicurezza di questo script [leggendone il codice alla relativa pagina su Github](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/blob/master/gestionestandgastronomico.sh).
+Puoi verificare la sicurezza di questo script [leggendone il codice alla relativa pagina su Github](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/blob/master/gestionestandgastronomico.sh).  
 Il codice "non ha una firma valida" perché non è stato ancora "approvato" dal team di sviluppo di PlayOnLinux.  
 In verità, non è stato ancora inviato.  
 Questo perché lo script richiede una precisa traduzione in inglese, per poi essere ri-tradotto in Italiano usando uno strumento esterno per le traduzioni, che poi verranno integrate in una nuova versione del programma. Verrà inviato prossimamente, in modo da rendere più veloce, "ufficiale" e "sicura" l'installazione.
