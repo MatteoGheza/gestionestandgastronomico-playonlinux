@@ -36,6 +36,8 @@ fi
 POL_Wine_SelectPrefix $PREFIX
 POL_Wine_PrefixCreate
 POL_Debug_Message "Prefix created."
+
+#Set_OS "win7"
  
 POL_SetupWindow_wait "Installazione librerie..." $TITLE
 
