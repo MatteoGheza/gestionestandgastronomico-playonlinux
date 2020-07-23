@@ -9,31 +9,31 @@ Eseguendo in PlayOnLinux lo script ```gestionestandgastronomico.sh``` da "Strume
 Puoi installare seguendo pochi semplici passaggi:
 1. Installa PlayOnLinux o PlayOnMac
 2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/blob/master/gestionestandgastronomico.sh) con tasto destro -> salva con nome
-3. Apri PlayOnLinux (o PlayOnMac)
+3. Apri PlayOnLinux (o PlayOnMac)  
 ![](installazione1.png)
-4. Andare su "Strumenti" e poi su "Esegui uno script"
+4. Andare su "Strumenti" e poi su "Esegui uno script"  
 ![](installazione2.png)
-5. Si aprirà una nuova finestra. Bisogna premere su "Avanti"
+5. Si aprirà una nuova finestra. Bisogna premere su "Avanti"  
 ![](installazione3.png)
 5. Nella successiva schermata, premere su "Esplora" e selezionare il file ```gestionestandgastronomico.sh``` precedentemente scaricato.  
-Successivamente, premere su "Avanti"
+Successivamente, premere su "Avanti"  
 ![](installazione4.png)
 ![](installazione5.png)
 ![](installazione6.png)
 6. Si aprirà una nuova finestra, in cui si verrà avvertiti che lo script non è verificato.  
 Questo perché il file non è ancora stato verificato dagli sviluppatori di PlayOnLinux.  
 Nonostante questo avvertimento totalmente automatico, lo script è sicuro; visualizzare la risposta alla domanda _Questo script è sicuro?_ nella sezione "Domande Frequenti.
-E' necessario confermare l'uso dello script anche nella successiva schermata, selezionando la checkbox.
+E' necessario confermare l'uso dello script anche nella successiva schermata, selezionando la checkbox.  
 ![](installazione7.png)
 ![](installazione8.png)
-7. Ora è iniziata l'installazione vera e propria. Premere su "Avanti"
+7. Ora è iniziata l'installazione vera e propria. Premere su "Avanti"  
 ![](installazione9.png)
-8. Selezionare "Scaricando il programma" e premere su "Avanti"
+8. Selezionare "Scaricando il programma" e premere su "Avanti"  
 ![](installazione10.png)
 9. Adesso l'installazione dovrebbe proseguire automaticamente. Attendere la chiusura delle finistre dell'installazione.  
-Se l'installazione è terminata correttamente, dovrebbe essere visibile la seguente schermata:
+Se l'installazione è terminata correttamente, dovrebbe essere visibile la seguente schermata:  
 ![](installazione11.png)
-10. Selezionare "Gestione Stand Gastronomico" e premere su "Avvia"
+10. Selezionare "Gestione Stand Gastronomico" e premere su "Avvia"  
 ![](installazione12.png)
 11. Ottimo, ora puoi utilizzare Gestione Stand Gastronomico da Linux/MacOS
 
