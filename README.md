@@ -8,19 +8,19 @@ Eseguendo in PlayOnLinux lo script ```gestionestandgastronomico.sh``` da "Strume
 # Come posso installarlo?
 Puoi installare seguendo pochi semplici passaggi:
 1. Installa PlayOnLinux o PlayOnMac
-2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/blob/master/gestionestandgastronomico.sh) con tasto destro -> salva con nome
+2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/raw/master/gestionestandgastronomico.sh) con tasto destro -> salva con nome
 3. Apri PlayOnLinux (o PlayOnMac)  
 ![](immagini/installazione1.png)
 4. Andare su "Strumenti" e poi su "Esegui uno script"  
 ![](immagini/installazione2.png)
 5. Si aprirà una nuova finestra. Bisogna premere su "Avanti"  
 ![](immagini/installazione3.png)
-5. Nella successiva schermata, premere su "Esplora" e selezionare il file ```gestionestandgastronomico.sh``` precedentemente scaricato.  
+5. Nella successiva schermata, premere su "Esplora" e selezionare il file ```gestionestandgastronomico.sh``` precedentemente scaricato.
 Successivamente, premere su "Avanti"  
 ![](immagini/installazione4.png)
 ![](immagini/installazione5.png)
 ![](immagini/installazione6.png)
-6. Si aprirà una nuova finestra, in cui si verrà avvertiti che lo script non è verificato.  
+6. Si aprirà una nuova finestra, in cui si viene avvertiti che lo script non è verificato.  
 Questo perché il file non è ancora stato verificato dagli sviluppatori di PlayOnLinux.  
 Nonostante questo avvertimento totalmente automatico, lo script è sicuro; [visualizzare la risposta alla domanda _Questo script è sicuro?_ nella sezione "Domande Frequenti](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#e-sicuro-utilizzare-questo-script-come-faccio-a-sapere-che-non-%C3%A8-un-virus).
 E' necessario confermare l'uso dello script anche nella successiva schermata, selezionando la checkbox.  
