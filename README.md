@@ -38,6 +38,28 @@ Se l'installazione è terminata correttamente, dovrebbe essere visibile la segue
 11. Ottimo, ora puoi utilizzare Gestione Stand Gastronomico da Linux/MacOS
 
 # Domande Frequenti
+## Come posso installare PlayOnLinux?
+Esistono molte guide per l'installazione di PlayOnLinux sulle varie distribuzioni di Linux.  
+Per ottenere informazioni chiare e semplici, consiglio la ricerca in internet di una guida, cercando ad esempio "Installare PlayOnLinux su Ubuntu/Arch Linux/Manjaro/Fedora/...".
+Di seguito sono riportati alcuni passaggi generali per evitare la ricerca di guide non ufficiali.
+
+Con "Gestore di pacchetti" da interfaccia grafica:
+1. Aprire il gestore di pacchetti/gestore dei software, se il sistema operativo usato lo include nei programmi installati
+2. Cercare nella casella di ricerca "PlayOnLinux"
+3. Selezionare il software con nome "PlayOnLinux" dall'elenco
+4. Premere "Installa" e seguire i passaggi indicati a video
+
+Con "Terminale":
+1. Aprire l'aplicazione chiamata "Terminale" o "Terminal Emulator"
+2. Scrivere i comandi indicati nella seguente tabella, scegliendo quelli adatti al proprio sistema operativo.  
+| Distribuzione | Comandi da eseguire                                                                                        |
+|---------------|------------------------------------------------------------------------------------------------------------|
+| Ubuntu        | sudo apt update && sudo apt install playonlinux                                                            |
+| Debian        | sudo apt update && sudo apt install playonlinux                                                            |
+| Manjaro       | sudo pacman -Sy playonlinux                                                                                |
+| Arch Linux    | sudo pacman -Sy playonlinux                                                                                |
+| Fedora        | wget http://rpm.playonlinux.com/fedora/yum/base/PlayOnLinux_4.2.3.rpm && sudo rpm –i PlayOnLinux_4.2.3.rpm |
+
 ## Il software è utilizzabile per una sagra vera? Ci sono delle funzionalità che non "funzionano"?
 Attualmente funziona tutto al 100%, dalla stampa al server web, dall'esportazione alla gestione dell'inventario.  
 Non è stato testato in una vera sagra, ma è stato provato per un'ora in una "finta serata", con un ottimo risultato.  
