@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: ShellCheck
+      uses: ludeeus/action-shellcheck@0.4.1
+      with:
+        severity: warning
+    - name: Setup PlayOnLinux_Tools script checker
+      run: |
+        git clone https://github.com/PlayOnLinux/PlayOnLinux_Tools
+        source PlayOnLinux_Tools/PlayOnLinux_ScriptChecker/script_checker.sh gestionestandgastronomico.sh
