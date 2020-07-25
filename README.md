@@ -7,7 +7,7 @@ Eseguendo in PlayOnLinux lo script ```gestionestandgastronomico.sh``` da "Strume
 
 # Come posso installarlo?
 Puoi installare seguendo pochi semplici passaggi:
-1. Installa PlayOnLinux o PlayOnMac
+1. [Installa PlayOnLinux](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonlinux) [o PlayOnMac](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonmac)
 2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/raw/master/gestionestandgastronomico.sh) con tasto destro -> salva con nome
 3. Apri PlayOnLinux (o PlayOnMac)  
 ![](immagini/installazione1.png)
@@ -51,7 +51,8 @@ Con "Gestore di pacchetti" da interfaccia grafica:
 
 Con "Terminale":
 1. Aprire l'aplicazione chiamata "Terminale" o "Terminal Emulator"
-2. Scrivere i comandi indicati nella seguente tabella, scegliendo quelli adatti al proprio sistema operativo.  
+2. Scrivere i comandi indicati nella seguente tabella, scegliendo quelli adatti al proprio sistema operativo.
+
 | Distribuzione | Comandi da eseguire                                                                                        |
 |---------------|------------------------------------------------------------------------------------------------------------|
 | Ubuntu        | sudo apt update && sudo apt install playonlinux                                                            |
