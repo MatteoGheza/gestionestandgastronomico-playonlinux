@@ -7,14 +7,14 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: ShellCheck
-      uses: ludeeus/action-shellcheck@0.4.1
-      with:
-        severity: warning
+      run: |
+        sudo apt-get install shellcheck -y
+        shellcheck -s bash -e SC2154 -e SC1090 -e SC1017 gestionestandgastronomico.sh
     - name: Setup PlayOnLinux_Tools script checker
       run: |
         git clone https://github.com/PlayOnLinux/PlayOnLinux_Tools
