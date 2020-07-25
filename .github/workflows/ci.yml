@@ -18,8 +18,6 @@ jobs:
         sudo mv shellcheck-stable/shellcheck /usr/bin/shellcheck
         chmod +x /usr/bin/shellcheck
         shellcheck -V
-    #- name: ShellCheck
-    #  run: shellcheck-stable/shellcheck -s bash -e SC2154 -e SC1090 -e SC1017 gestionestandgastronomico.sh
     - name: Run script checker
       run: |
         wget https://gist.github.com/MatteoGheza/7227474476a2a008922aa958f881be15/raw/b9114529c139dd3fd258016ae246565a7026f377/script_checker.sh

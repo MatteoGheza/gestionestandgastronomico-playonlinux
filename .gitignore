@@ -2,3 +2,4 @@ shellcheck-stable.linux.x86_64.tar.xz
 shellcheck-stable
 PlayOnLinux_Tools
 *.log
+script_check.sh

@@ -39,7 +39,7 @@ if [ "$INSTALL_METHOD" = "LOCAL" ]; then
     INSTALLER="$APP_ANSWER"
     POL_Debug_Message "Installer $INSTALLER."
 elif [ "$INSTALL_METHOD" = "DOWNLOAD" ]; then
-    cd "$POL_System_TmpDir" || exit 1
+    cd "$POL_System_TmpDir"
     POL_Download "http://www.gestionestandgastronomico.it/download/Gestione%20Sagra%20(2.2.1).exe"
     INSTALLER="$POL_System_TmpDir/Gestione%20Sagra%20(2.2.1).exe"
     POL_Debug_Message "Installer $INSTALLER."
