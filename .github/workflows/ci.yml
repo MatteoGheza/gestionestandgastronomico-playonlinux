@@ -23,4 +23,5 @@ jobs:
       run: |
         git clone https://github.com/PlayOnLinux/PlayOnLinux_Tools
         cd PlayOnLinux_Tools/PlayOnLinux_ScriptChecker
+        sed -i 's/\r//' ../../gestionestandgastronomico.sh
         source script_checker.sh ../../gestionestandgastronomico.sh

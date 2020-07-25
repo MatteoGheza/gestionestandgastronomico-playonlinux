@@ -33,14 +33,12 @@ POL_Debug_Message "TMP DIR: $POL_System_TmpDir."
 POL_SetupWindow_InstallMethod "LOCAL,DOWNLOAD" "$TITLE"
 POL_Debug_Message "Installation method $INSTALL_METHOD."
 
-if [ "$INSTALL_METHOD" = "LOCAL" ]
-then
+if [ "$INSTALL_METHOD" = "LOCAL" ]; then
     POL_SetupWindow_browse "Seleziona il file di installazione o torna indietro" "$TITLE"
     #POL_SetupWindow_message "$(eval_gettext 'Select the installer file or go back')" "$TITLE"
     INSTALLER="$APP_ANSWER"
     POL_Debug_Message "Installer $INSTALLER."
-elif [ "$INSTALL_METHOD" = "DOWNLOAD" ]
-then
+elif [ "$INSTALL_METHOD" = "DOWNLOAD" ]; then
     cd "$POL_System_TmpDir" || exit 1
     POL_Download "http://www.gestionestandgastronomico.it/download/Gestione%20Sagra%20(2.2.1).exe"
     INSTALLER="$POL_System_TmpDir/Gestione%20Sagra%20(2.2.1).exe"
