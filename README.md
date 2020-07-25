@@ -7,7 +7,7 @@ Eseguendo in PlayOnLinux lo script ```gestionestandgastronomico.sh``` da "Strume
 
 # Come posso installarlo?
 Puoi installare seguendo pochi semplici passaggi:
-1. [Installa PlayOnLinux](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonlinux) [o PlayOnMac](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonmac)
+1. [Installa PlayOnLinux](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonlinux) o [PlayOnMac](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonmac)
 2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/raw/master/gestionestandgastronomico.sh) con tasto destro -> salva con nome
 3. Apri PlayOnLinux (o PlayOnMac)  
 ![](immagini/installazione1.png)
@@ -61,6 +61,8 @@ Con "Terminale":
 | Arch Linux    | sudo pacman -Sy playonlinux                                                                                |
 | Fedora        | wget http://rpm.playonlinux.com/fedora/yum/base/PlayOnLinux_4.2.3.rpm && sudo rpm –i PlayOnLinux_4.2.3.rpm |
 
+## Come posso installare PlayOnMac?
+Per installare PlayOnMac, devi recarti sul sito [https://www.playonmac.com/en/](https://www.playonmac.com/en/) e premere su "Download PlayOnMac"; a quel punto, si scaricherà un file .dmg: devi aprirlo premendo due volte su di esso. A questo punto, segui i passaggi indicati dal programma.
 ## Il software è utilizzabile per una sagra vera? Ci sono delle funzionalità che non "funzionano"?
 Attualmente funziona tutto al 100%, dalla stampa al server web, dall'esportazione alla gestione dell'inventario.  
 Non è stato testato in una vera sagra, ma è stato provato per un'ora in una "finta serata", con un ottimo risultato.  
