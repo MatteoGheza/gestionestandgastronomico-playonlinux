@@ -15,13 +15,14 @@ jobs:
       run: |
         wget https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.x86_64.tar.xz
         tar xf shellcheck-stable.linux.x86_64.tar.xz
-        chmod +x shellcheck-stable/shellcheck
-        shellcheck-stable/shellcheck -V
-    - name: ShellCheck
-      run: shellcheck-stable/shellcheck -s bash -e SC2154 -e SC1090 -e SC1017 gestionestandgastronomico.sh
-    - name: Setup PlayOnLinux_Tools script checker
+        sudo mv shellcheck-stable/shellcheck /usr/bin/shellcheck
+        chmod +x /usr/bin/shellcheck
+        shellcheck -V
+    #- name: ShellCheck
+    #  run: shellcheck-stable/shellcheck -s bash -e SC2154 -e SC1090 -e SC1017 gestionestandgastronomico.sh
+    - name: Run script checker
       run: |
-        git clone https://github.com/PlayOnLinux/PlayOnLinux_Tools
-        cd PlayOnLinux_Tools/PlayOnLinux_ScriptChecker
-        sed -i 's/\r//' ../../gestionestandgastronomico.sh
-        source script_checker.sh ../../gestionestandgastronomico.sh
+        wget https://gist.github.com/MatteoGheza/7227474476a2a008922aa958f881be15/raw/b9114529c139dd3fd258016ae246565a7026f377/script_checker.sh
+        chmod +x script_checker.sh
+        sed -i 's/\r//' gestionestandgastronomico.sh
+        ./script_checker.sh gestionestandgastronomico.sh
