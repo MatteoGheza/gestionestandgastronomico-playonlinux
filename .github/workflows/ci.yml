@@ -11,14 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: ShellCheck
+    - name: Setup ShellCheck
       run: |
         wget https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.x86_64.tar.xz
         tar xf shellcheck-stable.linux.x86_64.tar.xz
         chmod +x shellcheck-stable/shellcheck
         shellcheck-stable/shellcheck -V
-        shellcheck-stable/shellcheck -s bash -e SC2154 -e SC1090 -e SC1017 gestionestandgastronomico.sh
+    - name: ShellCheck
+      run: shellcheck-stable/shellcheck -s bash -e SC2154 -e SC1090 -e SC1017 gestionestandgastronomico.sh
     - name: Setup PlayOnLinux_Tools script checker
       run: |
         git clone https://github.com/PlayOnLinux/PlayOnLinux_Tools
-        source PlayOnLinux_Tools/PlayOnLinux_ScriptChecker/script_checker.sh gestionestandgastronomico.sh
+        cd PlayOnLinux_Tools/PlayOnLinux_ScriptChecker
+        source script_checker.sh ../../gestionestandgastronomico.sh
