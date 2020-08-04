@@ -8,7 +8,7 @@ Eseguendo in PlayOnLinux lo script ```gestionestandgastronomico.sh``` da "Strume
 # Come posso installarlo?
 Puoi installare seguendo pochi semplici passaggi:
 1. [Installa PlayOnLinux](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonlinux) se si utilizza un sistema operativo Linux o [PlayOnMac](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux#come-posso-installare-playonmac) se si utlilizza MacOS
-2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/raw/master/gestionestandgastronomico.sh) con tasto destro -> salva con nome
+2. Scarica il file [gestionestandgastronomico.sh](https://github.com/MatteoGheza/gestionestandgastronomico-playonlinux/raw/master/gestionestandgastronomico.sh) con tasto destro -> "Salva link con nome" (o simili)
 3. Apri PlayOnLinux (o PlayOnMac)  
 ![](immagini/installazione1.png)
 4. Andare su "Strumenti" e poi su "Esegui uno script"  
