@@ -62,7 +62,7 @@ POL_Call POL_Install_corefonts
 POL_Call POL_Install_FontsSmoothBGR
 POL_Call POL_Install_FontsSmoothGrayScale
 POL_Call POL_Install_FontsSmoothRGB
-#POL_Call POL_Install_LunaTheme 
+POL_Call POL_Install_LunaTheme 
 POL_Call POL_Install_ATI_Black-Screen_Fix
 
 POL_Wine_reboot
@@ -74,8 +74,8 @@ POL_Debug_Message "$INSTALLER running"
 POL_Wine_WaitExit
 
 POL_System_TmpDelete
-POL_Debug_Message "TMP delate"
- 
+POL_Debug_Message "TMP delete"
+
 POL_Shortcut "sagra.exe" "$TITLE" "" "" "$SOFTWARE_CATEGORIES"
 POL_Debug_Message "Shortcut sagra.exe"
  
